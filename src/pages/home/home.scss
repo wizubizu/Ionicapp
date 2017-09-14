@@ -1,0 +1,144 @@
+
+  .ion-title {
+    // text-align: center;
+    padding-left: 80px;
+    color: #ffffff;
+  }
+  .font-17 {
+    font-size: 17px;
+  }
+  .left {
+    text-align: left;
+  }
+  .right{
+    text-align: right;
+  }
+  .m-t-40 {
+    margin-top: 120px;
+  }
+  .m-0 {
+    margin: 0;
+  }
+  .p-10 {
+    padding: 10px;
+  }
+  .center {
+    text-align: center;
+  }
+  .text-grey {
+    color: #757575;
+  }
+  .text-primary {
+    color: #f8991e;
+  }
+  ion-navbar {
+    background-color: #f8991e;
+  }
+  .toolbar-background {
+    background-color: #f8991e;
+  }
+  .toolbar-title {
+    color: #ffffff;
+  }
+  .bar-button-default-md {
+    color: #ffffff;
+  }
+  .align-center {
+    text-align: center;
+  }
+  .card-section {
+    padding-top: 20px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.card:hover {
+  -webkit-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.2);
+  box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.2);}
+
+.card{
+  margin: 0 40px;
+}
+
+.card-content {
+    padding: 2px 16px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+div.placeholder {
+  height: 203px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.5px solid lightgrey;
+}
+div.placeholder > ion-icon {
+  font-size: 61px;
+  color: #f8991e;
+}
+.myProgress {
+  width: 100%;
+  background-color: #fff;
+}
+.myBar {
+  width: 270px;
+  height: 10px;
+  background-color: #ddd;
+  margin: 0 0 5px 0;
+}
+.myBar2 {
+  width: 170px;
+  height: 10px;
+  background-color: #ddd;
+  margin: 0 0 5px 0;
+}
+.rating {
+  color: #cb2227;
+}
+.last-child-rating {
+  color: #cccccc;
+}
+.pricing > p {
+  color: #008c69;
+}
+.m-120 {
+  margin: 120px;
+}
+.btn-primary {
+  background-color: #f8991e;
+  width: 214px;
+  height: 47px;
+  border-radius: 127px;
+  color: #ffffff;
+}
+div.tab {
+  height: 42px;
+  background-color: #f8991e;
+  margin-top: 58px;
+}
+.btn-select {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: #ffffff;
+  float: left;
+  box-shadow: none;
+}
+.radio-md .radio-checked, .item-radio-checked.item-md ion-label {
+  border-color: #f8991e;
+  color: #f8991e;
+}
+.radio-md .radio-inner {
+  background-color: #f8991e;
+}
+.m-t-10 {
+  margin-top: 10px
+}

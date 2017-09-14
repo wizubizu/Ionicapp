@@ -1,0 +1,72 @@
+<!--
+  Generated template for the TestPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="arrow-back"></ion-icon>
+    </button>
+    <ion-title>Java Test</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <p class="text-primary font-17 m-0">Questions</p>
+      </ion-col>
+      <ion-col col-6>
+        <p class="text-primary font-17 right m-0">1/50</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6>
+        <p class="text-primary font-17 m-0">Time Remaining</p>
+      </ion-col>
+      <ion-col col-6>
+        <p class="text-primary font-17 right m-0">04:02</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div class="question p-10">
+    <p class="font-17">
+      How many objects are create by the following code?<br><br>
+      Object a, b, c, d, e <br><br>
+      e = new Object();<br>
+      b = a = e; <br>
+      e = new Object();
+
+    </p>
+  </div>
+  <ion-list radio-group>
+    <ion-item>
+      <ion-label>2</ion-label>
+      <ion-radio></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>5</ion-label>
+      <ion-radio></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-radio value="python"></ion-radio>
+      <ion-label>4</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-radio></ion-radio>
+      <ion-label>That code is invalid</ion-label>
+    </ion-item>
+  </ion-list>
+  <div style="margin-left:45px;">
+    <button ion-btn class="btn-primary" (click)="load()">Continue</button>
+  </div>
+</ion-content>

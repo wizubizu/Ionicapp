@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+          <ion-icon name="arrow-back"></ion-icon>
+        </button>
+    <ion-title>Recomended Courses</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content no-padding>
+  	<div class="card-section">
+      	<ion-card (click)="load()">
+		  	<img src="assets/img/rectangle.png"/>
+		  	<hr class="bg-Summer-Sky m-t-0 m-b-0 h-10">
+		  	<p class="p-l-10 m-t-5">BRIAN TRACY SERIES</p>
+		  	<p class="m-t-20 p-l-10">
+		      Learn more
+		    </p>
+		</ion-card>
+		<ion-card class="m-t-20">
+		  	<img src="assets/img/default-avatar.png"/>
+		  	<hr class="bg-Summer-Sky m-t-0 m-b-0 h-10">
+		  	<p class="p-l-10 m-t-5">FINANCE & MANAGMENT</p>
+		  	<p class="m-t-20 p-l-10">
+		      Learn more <span> >> </span>
+		    </p>
+		</ion-card>
+   </div>
+</ion-content>

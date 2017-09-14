@@ -1,0 +1,93 @@
+<ion-header>
+  	<ion-navbar>
+  		<button ion-button menuToggle>
+	      	<ion-icon name="arrow-back"></ion-icon>
+	    </button>
+  	</ion-navbar>
+</ion-header>
+
+
+<ion-content>
+    <ion-list>
+        <div class="card">
+            <ion-item>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/wyVM1evRxNw" frameborder="0" width="560" height="315"></iframe>
+                </div>
+            </ion-item>
+        </div>
+    </ion-list>
+
+
+    <p class="c-orange m-20 f-18 w-900">Understanding Corporate Finance</p>
+    <p class="m-b-0 m-l-20 c-grey">Maximillian Schwarzmuller</p>
+    <progress max="100" value="20" class=" width-200 m-l-20"></progress>
+
+    <ion-grid>
+    	<ion-row class="">
+    		<ion-col col-4 (click)="load()"><p class="c-grey c-ta f-18 m-b-0" >Lectures</p></ion-col>
+    		<ion-col col-4><p class="c-orange border-bottomion c-ta f-18 m-b-0">More</p></ion-col>
+    		<ion-col col-4></ion-col>
+    	</ion-row>
+    </ion-grid>
+
+    <ion-grid>
+    	<ion-row class="">
+    		<ion-col col-9><p class="f-18 c-grey">About this Course</p></ion-col>
+    		<ion-col col-3>
+    			<ion-icon class="c-grey" name="more"></ion-icon>
+    		</ion-col>
+    	</ion-row>
+    </ion-grid>
+    <ion-grid>
+        <ion-row class="">
+            <ion-col col-9><p class="f-18 c-grey">Bookmarks</p></ion-col>
+            <ion-col col-3>
+                <ion-icon class="c-grey" name="bookmark"></ion-icon>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <ion-grid>
+        <ion-row class="">
+            <ion-col col-9><p class="f-18 c-grey">Q&A</p></ion-col>
+            <ion-col col-3>
+                <ion-icon class="c-grey" name="text"></ion-icon>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <ion-grid>
+        <ion-row class="">
+            <ion-col col-9><p class="f-18 c-grey">Resources</p></ion-col>
+            <ion-col col-3>
+                <ion-icon class="c-grey" name="list"></ion-icon>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <ion-grid>
+        <ion-row class="">
+            <ion-col col-9><p class="f-18 c-grey">Announcements</p></ion-col>
+            <ion-col col-3>
+                <ion-icon class="c-grey" name="notifications"></ion-icon>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <ion-grid>
+        <ion-row class="">
+            <ion-col col-9><p class="f-18 c-grey">Add this Course to Favorites</p></ion-col>
+            <ion-col col-3>
+                <ion-icon class="c-grey" name="heart-outline"></ion-icon>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <ion-grid>
+        <ion-row class="">
+            <ion-col col-9><p class="f-18 c-grey">Archive this Course</p></ion-col>
+            <ion-col col-3>
+                <ion-icon class="c-grey" name="archive"></ion-icon>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
+
+
+

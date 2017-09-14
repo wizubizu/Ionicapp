@@ -1,0 +1,31 @@
+page-assessment-details {
+  .center {
+    text-align: center;
+  }
+  .text-grey {
+    color: #757575;
+  }
+  .text-primary {
+    color: #f8991e;
+  }
+  div.content >p {
+    color: #757575;
+    line-height: 1.2;
+  }
+  div.content {
+    margin: 10px 40px;
+  }
+  div.text-content {
+    padding-top: 30px;
+  }
+  div.text-content > ul > li {
+    font-size: 14px;
+  }
+  div.btn {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .font-14 {
+    font-size: 14px;
+  }
+}
